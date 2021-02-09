@@ -17,10 +17,11 @@ function ageChecker(age) {
   if(age<=19 && age>=13){
   return 'You are a teenager!'
 }
-  if(age<=12){
+  else if(age<=12){
   return 'You are a kid'
 }
-  if(age>=19){
+  else
+  {
     return 'You are a grownup'
   }
 
